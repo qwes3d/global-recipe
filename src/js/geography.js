@@ -9,7 +9,7 @@ let currentQuestionIndex = 0;
 // Load trivia questions from JSON
 async function loadQuestions() {
   try {
-    const res = await fetch("../src/data/geography.json");
+    const res = await fetch("../data/geography.json");
     if (!res.ok) throw new Error(`HTTP error ${res.status}`);
     questions = await res.json();
     displayQuestion();
