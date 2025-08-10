@@ -41,7 +41,7 @@
         
         button {
             padding: 8px 15px;
-            background-color: #3498db;
+            background-color: #160575;
             color: white;
             border: none;
             border-radius: 4px;
@@ -54,7 +54,7 @@
         }
         
         #skipFlag {
-            background-color: #95a5a6;
+            background-color: #060707;
         }
         
         #skipFlag:hover {
