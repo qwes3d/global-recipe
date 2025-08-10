@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Recipe Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="./favorites/index.html">favorites</a></li>
+      <li><a href="./funzone/index.html">fun zone</a></li>
+    </ul>
+  </nav>
+</header>
+<body>
+  <h1>Recipe Finder</h1>
+
+  <input type="text" id="Query" placeholder="Search for a recipe..." />
+  <button id="searchBtn">Search</button>
+
+  <div id="results" class="results-container"></div>
+
+  <div id="recipe-detail" class="recipe-detail" style="display: none;">
+    <div id="recipe-content"></div>
+    <button id="closeRecipeDetail">Close</button>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

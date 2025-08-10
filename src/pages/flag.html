@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flag Guessing Game</title>
+  <link rel="stylesheet" href="/css/flag.css" />
+</head>
+
+<nav>
+  <ul class="nav-links">
+    <li><a href="/index.html">Home</a></li>
+ </ul>
+<body>
+    <div id="gameContainer">
+        <!-- The game will be initialized here by JavaScript -->
+    </div>
+
+    <script type="module">
+        import { initFlagGuessingGame } from '../js/flag.js';
+        document.addEventListener('DOMContentLoaded', () => {
+            initFlagGuessingGame('gameContainer');
+        });
+    </script>
+</body>
+</html>

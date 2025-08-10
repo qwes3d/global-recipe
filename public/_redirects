@@ -1,0 +1,10 @@
+# Handle all routes for multi-page application
+/               /index.html     200
+/favorites      /favorite.html    200
+/funzone        /index.html       200
+/flag           /flag.html        200
+/timetravel     /timetravel.html  200
+/geography      /geography.html   200
+
+# Fallback for SPA-style routing
+/*              /index.html     200

@@ -1,0 +1,77 @@
+[
+  {
+    "question": "What is the capital of Canada?",
+    "answers": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+    "correct": "Ottawa"
+  },
+  {
+    "question": "Which continent is the largest?",
+    "answers": ["Africa", "Asia", "Europe", "North America"],
+    "correct": "Asia"
+  },
+  {
+    "question": "Which country has the most islands?",
+    "answers": ["Sweden", "Indonesia", "Philippines", "Greece"],
+    "correct": "Sweden"
+  },
+    {
+        "question": "What is the smallest country in the world?",
+        "answers": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+        "correct": "Vatican City"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "answers": ["Earth", "Mars", "Jupiter", "Venus"],
+        "correct": "Mars"
+    },
+    {
+        "question": "What is the largest mammal in the world?",
+        "answers": ["Elephant", "Blue Whale", "Giraffe", "Great White Shark"],
+        "correct": "Blue Whale"
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "answers": ["Mark Twain", "Charles Dickens", "William Shakespeare", "Jane Austen"],
+        "correct": "William Shakespeare"
+    },
+    {
+        "question": "What is the main ingredient in guacamole?",
+        "answers": ["Tomato", "Avocado", "Pepper", "Onion"],
+        "correct": "Avocado"
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "answers": ["Oxygen", "Gold", "Silver", "Hydrogen"],
+        "correct": "Oxygen"
+    },
+    {
+        "question": "What is the hardest natural substance on Earth?",
+        "answers": ["Gold", "Diamond", "Iron", "Platinum"],
+        "correct": "Diamond"
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "answers": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "correct": "Pacific Ocean"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "answers": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "correct": "Leonardo da Vinci"
+    },
+    {    "question": "What is the capital of Japan?",
+        "answers": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
+        "correct": "Tokyo"
+
+    },
+    {
+        "question": "What is the largest desert in the world?",
+        "answers": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Kalahari Desert"],
+        "correct": "Sahara Desert"
+    },
+    {
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "answers": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "correct": "Carbon Dioxide"
+    }
+]

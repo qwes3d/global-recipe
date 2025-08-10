@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Time Traveler</title>
+  <link rel="stylesheet" href="/css/timetravel.css">
+</head>
+<header>
+  <div class="logo-container">
+      <a href="/">
+        <img 
+          src="/images/fun.webp" 
+          alt="RecipeFinder Logo" 
+          class="logo"
+          width="150" height="150">
+      </a>
+    </div>
+  <nav>
+    <h1 class="logo">🌍 GeoFun Trivia</h1>
+    <ul class="nav-links">
+      <li><a href="/index.html">Home</a></li>
+      
+    </ul>
+  </nav>
+<body>
+  <main>
+    <h1>🕰️ Time Traveler</h1>
+    <p>Select a date to travel back in time and discover historical events!</p>
+    <form id="date-form">
+      <input type="number" id="month" min="1" max="12" placeholder="Month" required>
+      <input type="number" id="day" min="1" max="31" placeholder="Day" required>
+      <button type="submit">Travel!</button>
+    </form>
+
+    <section id="events-container"></section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+  <script type="module" src="../js/TimeTraveler.js"></script>
+</body>
+</html>

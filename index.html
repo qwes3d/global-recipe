@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header> 
+    <div class="logo-container">
+      <a href="/">
+        <img 
+          src="/src/public/images/ikenga.webp" 
+          alt="RecipeFinder Logo" 
+          class="logo"
+          width="150" height="150">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/src/pages/favorite.html">My Favorites</a></li>
+        <li><a href="./src/pages/index.html">Fun Zone</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="search-container">
+      <div class="search-bar">
+        <input type="text" id="Query" class="search-input" placeholder="Search for recipes...">
+        <button id="searchBtn" class="search-button">Search</button>
+      </div>
+      <div id="results" class="recipe-grid"></div>
+    </div>
+  </main>
+  <script type="module" src="./src/js/app.js"></script>
+</body>
+</html>

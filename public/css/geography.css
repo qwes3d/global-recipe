@@ -1,0 +1,95 @@
+/* Reset & base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.container {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+
+.correct {
+  background: #b3f7b3;
+}
+
+.wrong {
+  background: #f7b3b3;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card.animate:hover {
+  transform: scale(1.02);
+}
+
+.question {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.options li {
+  background: #f1f1f1;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.options li:hover {
+  background: #d0e6ff;
+}
+
+.feedback {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  min-height: 1.5rem;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
