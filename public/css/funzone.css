@@ -14,9 +14,10 @@ header {
   color: white;
 }
 
-nav {
+nav ul li a {
   color: white;
 }
+
 
 main.game-grid {
   display: grid;
