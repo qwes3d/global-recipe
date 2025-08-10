@@ -8,13 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const recipeDetail = new RecipeDetail();
   const resultsContainer = document.getElementById("results");
 
-  // Add link to favorites page
-  const header = document.createElement('header');
-  header.innerHTML = `
-    <h1>Recipe Finder</h1>
-    <a href="favorites.html">My Favorites</a>
-  `;
-  document.body.insertBefore(header, document.body.firstChild);
+  
 
   // Initialize search functionality
   new RecipeSearch(async (query) => {

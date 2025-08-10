@@ -109,7 +109,7 @@ nav a:focus {
 
 .search-button:hover,
 .search-button:focus {
-  background-color: #2980b9;
+  background-color: darkblue;
   outline: none;
 }
 
