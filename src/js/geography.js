@@ -9,13 +9,33 @@ let currentQuestionIndex = 0;
 // Load trivia questions from JSON
 async function loadQuestions() {
   try {
-    const res = await fetch("./geography.json");
-    if (!res.ok) throw new Error(`HTTP error ${res.status}`);
-    questions = await res.json();
-    displayQuestion();
+    // Use correct relative path from built geography.html location
+    const paths = [
+      "../data/geography.json",  // Relative from dist/pages/geography.html
+      "./data/geography.json",   // Relative from dist/pages/
+      "/data/geography.json"     // Absolute from web root
+    ];
+    
+    let res = null;
+    
+    for (const path of paths) {
+      try {
+        res = await fetch(path);
+        if (res.ok) {
+          questions = await res.json();
+          displayQuestion();
+          return;
+        }
+      } catch (e) {
+        console.log(`Failed to load from ${path}:`, e);
+      }
+    }
+    
+    throw new Error("Could not load geography.json from any path");
+    
   } catch (error) {
     questionBox.textContent = "❌ Error loading trivia questions.";
-    console.error(error);
+    console.error("Final error:", error);
   }
 }
 

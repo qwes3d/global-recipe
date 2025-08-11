@@ -24,4 +24,7 @@ export default defineConfig({
       },
     },
   },
+
+  // Ensure static assets are copied
+  publicDir: "public",
 });
