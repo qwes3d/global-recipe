@@ -3,12 +3,14 @@ import { searchRecipes, getRecipeDetails } from './components/spoonacular.js';
 import { RecipeCard } from './components/recipe-card.js';
 import { RecipeDetail } from './components/recipe-detail.js';
 import { RecipeSearch } from './components/recipe-search.js';
+import { Slideshow } from './components/slideshow.js';
 
 document.addEventListener("DOMContentLoaded", function () {
+  // Initialize slideshow
+  new Slideshow();
+
   const recipeDetail = new RecipeDetail();
   const resultsContainer = document.getElementById("results");
-
-  
 
   // Initialize search functionality
   new RecipeSearch(async (query) => {
