@@ -67,7 +67,7 @@ export function initFlagGuessingGame(containerId) {
     if (guess === normalizedCorrect) {
       result.textContent = "Correct! 🎉";
     } else {
-      result.textContent = `Oops! It was ${correctCountry}`;
+      result.textContent = `Oops! It is ${correctCountry}`;
     }
     
     input.value = "";
